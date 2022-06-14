@@ -1,0 +1,69 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "File to Base64",
+    "fields": {
+        "AAF": {
+            "caption": "File URL",
+            "editor": "DynamicValue",
+            "name": "file_url",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAG": {
+            "caption": "File Base64",
+            "doc": "Just the base64 encoded file",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "file_base64",
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "error",
+            "doc": "Is there an error? ",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "error",
+            "value": "boolean"
+        },
+        "AAI": {
+            "caption": "error body",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "error_body",
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "File Content Type",
+            "doc": "eg: image/png or application/pdf",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "content_type",
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "Full Base64 String",
+            "doc": "For use in img tags",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "full_base64_string",
+            "value": "text"
+        }
+    }
+}

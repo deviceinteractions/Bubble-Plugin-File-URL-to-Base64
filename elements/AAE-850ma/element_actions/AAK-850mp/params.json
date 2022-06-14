@@ -1,0 +1,12 @@
+{
+    "caption": "File to Base64",
+    "fields": {
+        "AAL": {
+            "caption": "fileUrl",
+            "editor": "DynamicValue",
+            "name": "actionFileURL",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}
