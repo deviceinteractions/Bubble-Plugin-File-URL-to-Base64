@@ -26,7 +26,7 @@ function(instance, context) {
         base64Data = base64Data.trim();
         var contentType = base64Data.split(';')[0].split(':')[1];
         var base64File = base64Data.split("base64,")[1];
-        console.log(contentType,base64File);
+        //console.log(contentType,base64File);
         //console.log("base64Data",base64Data);
         if(contentType.includes('/') && base64File){
             instance.publishState("file_base64", base64File);
@@ -34,7 +34,7 @@ function(instance, context) {
             instance.publishState("full_base64_string", base64Data);
             instance.publishState("error", false);
             instance.publishState("error_body", "OK");
-            console.log(contentType, base64File);
+            //console.log(contentType, base64File);
         }
         else{
             instance.publishState("error", true);

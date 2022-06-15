@@ -6,6 +6,8 @@
         "width": 400
     },
     "display": "File to Base64",
+    "events": {
+    },
     "fields": {
         "AAF": {
             "caption": "File URL",
@@ -63,6 +65,24 @@
                 "fn": "function(properties, context) {\n\n\n\n}"
             },
             "name": "full_base64_string",
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "image_source",
+            "doc": "Use this as the data source within an image element",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "image_source",
+            "value": "text"
+        },
+        "ABB": {
+            "caption": "Uploaded File URL",
+            "doc": "The last file URL uploaded via the Upload action",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "uploaded_file_url",
             "value": "text"
         }
     }
